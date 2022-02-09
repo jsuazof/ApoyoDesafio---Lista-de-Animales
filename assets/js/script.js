@@ -95,7 +95,11 @@ formulario.addEventListener("submit", (event) => {
     ${propietarioUno.datosPropietario()}
     </li>
     <li>
-      El tipo de animal es un: ${tipo.value}, mientras que el nombre de la mascota es: ${nombreMascota.value}, y la enfermedad es: ${enfermedad.value}
+      El tipo de animal es un: ${
+        tipo.value
+      }, mientras que el nombre de la mascota es: ${
+    nombreMascota.value
+  }, y la enfermedad es: ${enfermedad.value}
     </li>
   </ul>
   `;
